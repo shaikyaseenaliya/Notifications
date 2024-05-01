@@ -1,0 +1,65 @@
+/* Write your code here. */
+.bg-container {
+  background-color: #fff;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-size: 42px;
+  text-align: center;
+  padding: 10px;
+  margin: 20px;
+}
+.msg-card-primary {
+  height: 80px;
+  padding: 10px;
+  min-width: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #0b69ff;
+}
+.msg-card-success {
+  height: 80px;
+  padding: 10px;
+  min-width: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #2dca73;
+}
+.msg-card-warning {
+  height: 80px;
+  padding: 10px;
+  min-width: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ffb800;
+}
+.msg-card-danger {
+  height: 80px;
+  padding: 10px;
+  min-width: 250px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #ff0b37;
+}
+.msg-cls {
+  height: 20px;
+  width: 20px;
+  margin-right: 20px;
+}
+* {
+  margin: 0;
+}
